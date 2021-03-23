@@ -2,3 +2,17 @@
   width: 1184px;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .photo-grid {
+    width: 928px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .photo-grid {
+    width: 720px;
+  }
+}

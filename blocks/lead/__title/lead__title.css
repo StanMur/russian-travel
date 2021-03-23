@@ -9,3 +9,9 @@
   max-width: 720px;
   margin-top: 56px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__title {
+    margin-top: 48px;
+  }
+}

@@ -2,3 +2,17 @@
   width: 984px;
   margin-top: 64px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead-container__image {
+    width: 928px;
+    margin-top: 56px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead-container__image {
+    width: 768px;
+    margin-top: 56px;
+  }
+}

@@ -5,3 +5,17 @@
   grid-template-columns: 460px 456px;
   gap: 40px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place__title-url {
+    grid-template-columns: 440px 456px;
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__title-url {
+    grid-template-columns: 340px 352px;
+    gap: 28px;
+  }
+}
