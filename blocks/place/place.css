@@ -1,0 +1,14 @@
+.place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
+
+.place:nth-of-type(5n) {
+  padding-bottom: 92px;
+}

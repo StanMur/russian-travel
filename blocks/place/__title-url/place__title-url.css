@@ -1,0 +1,7 @@
+.place__title-url {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 460px 40px 456px;
+  grid-template-columns: 460px 456px;
+  gap: 40px;
+}

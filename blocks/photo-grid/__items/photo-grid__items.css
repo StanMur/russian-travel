@@ -1,0 +1,11 @@
+.photo-grid__items {
+  padding-top: 92px;
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 284px 16px 284px 16px 284px 16px 284px;
+  grid-template-columns: repeat(4, 284px);
+  -ms-grid-rows: 213px 16px 213px 16px 213px;
+  grid-template-rows: repeat(3, 213px);
+  gap: 16px;
+}

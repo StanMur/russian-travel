@@ -1,0 +1,8 @@
+.place__image-paragraphs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 460px 40px 484px;
+  grid-template-columns: 460px 484px;
+  gap: 40px;
+  margin-top: 48px;
+}
