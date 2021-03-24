@@ -1,5 +1,7 @@
 .body {
   background: #2a2c2f;
   overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }

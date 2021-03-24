@@ -1,12 +1,17 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .place__title_min_content {
-        display: grid;
-        grid-template-columns: min-content;
-    }
+  .place__title_min_content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: -webkit-min-content;
+    -ms-grid-columns: min-content;
+    grid-template-columns: -webkit-min-content;
+    grid-template-columns: min-content;
   }
+}
 
-  @media screen and (max-width: 767px) {
-    .place__title_min_content {
-        grid-template-columns: none;
-    }
+@media screen and (max-width: 767px) {
+  .place__title_min_content {
+    -ms-grid-columns: none;
+    grid-template-columns: none;
   }
+}

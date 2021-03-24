@@ -8,6 +8,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place__title-url {
+    -ms-grid-columns: 440px 32px 456px;
     grid-template-columns: 440px 456px;
     gap: 32px;
   }
@@ -15,6 +16,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__title-url {
+    -ms-grid-columns: 340px 28px 352px;
     grid-template-columns: 340px 352px;
     gap: 28px;
   }
@@ -22,6 +24,7 @@
 
 @media screen and (max-width: 767px) {
   .place__title-url {
+    -ms-grid-columns: 288px;
     grid-template-columns: 288px;
     gap: 32px;
   }
