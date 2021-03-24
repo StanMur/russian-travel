@@ -16,9 +16,9 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__image-paragraphs {
-    -ms-grid-columns: 440px 32px 456px;
-    grid-template-columns: 440px 456px;
-    gap: 32px;
+    -ms-grid-columns: 340px 32px 352px;
+    grid-template-columns: 340px 352px;
+    gap: 28px;
   }
 }
 
@@ -37,4 +37,8 @@
     margin-top: 32px;
     gap: 32px;
   }
+}
+
+li {
+  
 }
