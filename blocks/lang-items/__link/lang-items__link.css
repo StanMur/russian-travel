@@ -1,9 +1,16 @@
 .lang-items__link {
-  font-family: "Inter";
+  font-family: 'inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
   color: #ffffff;
   text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .lang-items__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

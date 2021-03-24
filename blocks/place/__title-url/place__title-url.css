@@ -19,3 +19,10 @@
     gap: 28px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .place__title-url {
+    grid-template-columns: 288px;
+    gap: 32px;
+  }
+}

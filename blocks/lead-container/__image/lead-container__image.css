@@ -16,3 +16,11 @@
     margin-top: 56px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .lead-container__image {
+    width: 320px;
+    height: 200px;
+    margin-top: 40px;
+  }
+}

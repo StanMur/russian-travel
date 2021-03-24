@@ -3,4 +3,5 @@
   display: -ms-flexbox;
   display: flex;
   list-style: none;
+  padding-top: 10px;
 }

@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place__title_min_content {
+        display: grid;
+        grid-template-columns: min-content;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .place__title_min_content {
+        grid-template-columns: none;
+    }
+  }
