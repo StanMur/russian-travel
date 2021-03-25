@@ -1,0 +1,7 @@
+.lang-items__margin-item {
+    margin-right: 18px;
+}
+
+.lang-items__margin-item:last-of-type {
+    margin-right: 0;
+}

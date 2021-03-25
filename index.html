@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="fonts/inter.css"/>
     <link rel="stylesheet" href="pages/index.css" />
     <title>Путешествие по России</title>
   </head>
@@ -17,8 +16,17 @@
           alt="Логотип Россия"
         />
         <ul class="lang-items">
-          <li><a class="lang-items__link lang-items__link_underline_lang" href="#" target="_self">Ru</a></li>
-          <li><a class="lang-items__link" href="#" target="_self">En</a></li>
+          <li class="lang-items__margin-item">
+            <a
+              class="lang-items__link lang-items__link_active"
+              href="#"
+              target="_self"
+              >Ru</a
+            >
+          </li>
+          <li class="lang-items__margin-item">
+            <a class="lang-items__link" href="#" target="_self">En</a>
+          </li>
         </ul>
       </header>
       <main class="content">
@@ -27,13 +35,13 @@
           <h2 class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
           </h2>
-          <div class="lead-container">
+          <div class="lead__container">
             <img
-              class="lead-container__image"
+              class="lead__image"
               src="images/lead-polka.jpg"
               alt="Картинка-сплю в поезде"
             />
-            <p class="lead-container__caption">ваша полка — верхняя</p>
+            <p class="lead__caption">ваша полка — верхняя</p>
           </div>
         </section>
         <section class="intro">
@@ -51,11 +59,23 @@
             вашего отпуска.
           </p>
           <ul class="intro__lists">
-            <li class="intro__list">Часовых поясов 11</li>
-            <li class="intro__list">Объектов природного наследия ЮНЕСКО 12</li>
-            <li class="intro__list">Объектов культурного наследия ЮНЕСКО 16</li>
-            <li class="intro__list">Природных заповедников 105</li>
-            <li class="intro__list">Аэропортов 241</li>
+            <li class="intro__list">
+              Часовых поясов <span class="intro__lists-span">11</span>
+            </li>
+            <li class="intro__list">
+              Объектов природного наследия ЮНЕСКО
+              <span class="intro__lists-span">12</span>
+            </li>
+            <li class="intro__list">
+              Объектов культурного наследия ЮНЕСКО
+              <span class="intro__lists-span">16</span>
+            </li>
+            <li class="intro__list">
+              Природных заповедников <span class="intro__lists-span">105</span>
+            </li>
+            <li class="intro__list">
+              Аэропортов <span class="intro__lists-span">241</span>
+            </li>
           </ul>
         </section>
         <section class="photo-grid">
@@ -149,7 +169,9 @@
         <section class="places">
           <div class="place">
             <div class="place__title-url">
-              <h2 class="place__title place__title_min_content">Куршская коса</h2>
+              <h2 class="place__title place__title_min_content">
+                Куршская коса
+              </h2>
               <div class="place__website">
                 <p class="place__url-heading">URL</p>
                 <a
@@ -336,12 +358,12 @@
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
             target="_blank"
           >
+            <h2 class="banner-cover__title">До Байкала «на собаках»</h2>
+            <h3 class="banner-cover__subtitle">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до
+              Байкала на электричках.
+            </h3>
           </a>
-          <h2 class="banner-cover__title">До Байкала «на собаках»</h2>
-          <h3 class="banner-cover__subtitle">
-            По мотивам учебной темы о Транссибе — путешествие от столицы до
-            Байкала на электричках.
-          </h3>
         </section>
       </main>
       <footer class="footer">
