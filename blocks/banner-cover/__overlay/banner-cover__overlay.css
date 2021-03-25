@@ -29,9 +29,8 @@
 }
 
 .banner-cover__overlay:hover:before {
-  opacity: 0.8;
   background: #2a2c2f;
-  opacity: 0.8;
+  opacity: .8;
   -webkit-transition: 500ms ease-in-out;
   -o-transition: 500ms ease-in-out;
   transition: 500ms ease-in-out;
